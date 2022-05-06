@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1651845147 source:c:\users\utilisateur\desktop\code\menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+
