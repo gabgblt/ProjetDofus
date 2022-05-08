@@ -1,0 +1,61 @@
+typedef struct Classe
+{
+    char nomClasse[20];
+    int numClasse;
+    char body[20];
+    int bodyPA;
+    int bodyDeg;
+    char sort1[20];
+    char sort2[20];
+    int degSort1, degSort2;
+    int sort1PA, sort2PA;
+}t_classe;
+
+t_classe Classe[3];
+Classe[0].nomClasse[20] = "Le sablier de Xelor";
+    Classe[0].numClasse = 1;
+    Classe[0].body[20] = "Coup de poing";
+    Classe[0].bodyPA = 1;
+    Classe[0].bodyDeg = 7;
+    Classe[0].sort1[20] = "Aiguille";
+    Classe[0].sort2[20] = "Frappe de Xelor";
+    Classe[0].degSort1 = 12;
+    Classe[0].degSort2 = 10;
+    Classe[0].sort1PA = 3;
+    Classe[0].sort2PA = 2;
+
+    Classe[1].nomClasse[20] = "L ombre de Sram";
+    Classe[1].numClasse = 2;
+    Classe[1].body[20] = "Attaque Mortelle";
+    Classe[1].bodyPA = 1;
+    Classe[1].bodyDeg = 10;
+    Classe[1].sort1[20] = "Toxines";
+    Classe[1].sort2[20] = "Attaque mortelle";
+    Classe[1].degSort1 = 8;
+    Classe[1].degSort2 = 11;
+    Classe[1].sort1PA = 2;
+    Classe[1].sort2PA = 3;
+
+    Classe[2].nomClasse[20] = "Le coeur de lop";
+    Classe[2].numClasse = 3;
+    Classe[2].body[20] = "Epee divine";
+    Classe[2].bodyPA = 1;
+    Classe[2].bodyDeg = 6;
+    Classe[2].sort1[20] = "Tempete de puissance";
+    Classe[2].sort2[20] = "Fureur";
+    Classe[2].degSort1 = 14;
+    Classe[2].degSort2 = 9;
+    Classe[2].sort1PA = 3;
+    Classe[2].sort2PA = 2;
+
+    Classe[3].nomClasse[20] = "L entendue de Cra";
+    Classe[3].numClasse = 4;
+    Classe[3].body[20] = "Frappe celeste";
+    Classe[3].bodyPA = 1;
+    Classe[3].bodyDeg = 8;
+    Classe[3].sort1[20] = "Fleche magique";
+    Classe[3].sort2[20] = "Multi fleche";
+    Classe[3].degSort1 = 10;
+    Classe[3].degSort2 = 15;
+    Classe[3].sort1PA = 2;
+    Classe[3].sort2PA = 3;
